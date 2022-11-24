@@ -1,0 +1,71 @@
+.title {
+  font-family: var(--gv);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 2rem;
+
+  letter-spacing: 0.1em;
+
+  color: #ff9f0d;
+
+  margin-bottom: 1rem;
+}
+
+.title_bold {
+  font-family: var(--helvetica);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+
+  letter-spacing: -0.03em;
+
+  color: var(--white);
+  margin-bottom: 1rem;
+
+  @media only screen and (max-width: 480px) {
+    font-size: 2rem;
+    line-height: 2rem;
+    br {
+      display: none;
+    }
+  }
+}
+.title_bold_black {
+  font-family: var(--gv);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+
+  letter-spacing: -0.03em;
+
+  color: var(--white);
+  margin-bottom: 1rem;
+
+  @media only screen and (max-width: 480px) {
+    font-size: 2rem;
+    line-height: 2rem;
+
+    br {
+      display: none;
+    }
+  }
+}
+
+.paragraph {
+  font-family: var(--helvetica);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+
+  letter-spacing: -0.02em;
+
+  color: var(--gray-6);
+
+  span {
+    font-weight: bold;
+  }
+}
