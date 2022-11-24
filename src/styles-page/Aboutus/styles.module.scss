@@ -1,0 +1,81 @@
+.container {
+  width: 100%;
+  padding: 5rem 0;
+  background-color: #0d0d0d;
+}
+.box {
+  width: 86%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.box_cards {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  p {
+    color: var(--gray-6);
+  }
+}
+.cards {
+  display: flex;
+  margin: 1rem 0;
+  p {
+    padding: 0 1rem;
+  }
+}
+.box_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+
+  height: 3.75rem;
+  width: 11.875rem;
+  background: #ff9f0d;
+  border-radius: 1.875rem;
+
+  a {
+    color: #ffffff;
+    font-family: var(--inter);
+    font-weight: 600;
+  }
+}
+.box_right {
+  width: 41.25rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box_group {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media screen and (max-width: 767px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+.img {
+  height: 20.625rem;
+  @media screen and (max-width: 767px) {
+    height: 10rem;
+  }
+}
+.img_group {
+  height: 11.5rem;
+  margin: 1rem 0;
+  @media screen and (max-width: 767px) {
+    height: 5.5rem;
+  }
+}

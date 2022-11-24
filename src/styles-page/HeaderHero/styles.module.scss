@@ -6,8 +6,11 @@
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("../../../public/Assets/restaurant/headerhero/image02.png");
 
-  background-size: 90rem;
+  background-size: 98rem;
   background-repeat: no-repeat;
+  @media screen and (max-width: 767px) {
+    background-size: 130rem;
+  }
 }
 
 .box {
@@ -15,10 +18,14 @@
   margin: 2rem auto;
   display: flex;
   justify-content: space-between;
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .box_left {
   display: flex;
-
+  align-items: center;
   justify-content: center;
 }
 
@@ -55,6 +62,8 @@
 
   a {
     color: #ffffff;
+    font-family: var(--inter);
+    font-weight: 600;
   }
 }
 .img {
@@ -69,6 +78,9 @@
     100% {
       transform: rotate(360deg);
     }
+  }
+  @media screen and (max-width: 767px) {
+    height: 16rem;
   }
 }
 .box_img {
