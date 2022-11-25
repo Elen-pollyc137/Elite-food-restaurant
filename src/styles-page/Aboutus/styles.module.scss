@@ -47,12 +47,16 @@
   }
 }
 .box_right {
-  width: 41.25rem;
+  width: auto;
 
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  @media screen and (max-width: 767px) {
+    width: 20rem;
+  }
 }
 
 .box_group {
