@@ -62,6 +62,9 @@
 }
 .box_right {
   padding: 3rem;
+  @media screen and (max-width: 767px) {
+    padding: 5px;
+  }
 }
 .box_cards {
   margin: 3rem 0;

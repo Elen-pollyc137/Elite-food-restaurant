@@ -1,0 +1,44 @@
+.container {
+  width: 100%;
+  padding: 3rem 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../../../public/Assets/restaurant/clientsus/image01.png");
+  background-size: 86rem;
+  background-repeat: no-repeat;
+}
+.box {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.box_cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+}
+.card {
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 2rem;
+  p {
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 18;
+  }
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  @media screen and (max-width: 767px) {
+    padding: 2rem 0;
+  }
+}
