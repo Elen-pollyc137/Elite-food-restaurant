@@ -1,4 +1,5 @@
 import BoxTitle from "../../Components/BoxTitle";
+import { IconCookie, IconHamburguer, IconWine } from "./icon";
 import styles from "./styles.module.scss";
 
 export default function WhyChoseus() {
@@ -81,6 +82,17 @@ export default function WhyChoseus() {
             title_bold={data.title_bold}
             paragraph={data.paragraph}
           />
+          <div className={styles.box_cards}>
+            <IconHamburguer /> <IconCookie />
+            <IconWine />
+          </div>
+          <div className={styles.card_year}>
+            <h2>30+</h2>{" "}
+            <p>
+              Years of <br />
+              <strong>Experienced</strong>
+            </p>
+          </div>
         </div>
       </div>
     </section>
