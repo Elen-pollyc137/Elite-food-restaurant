@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  padding: 5rem 0;
+  background-color: #0d0d0d;
+}
+.box {
+  width: 86%;
+  margin: 0 auto;
+  display: flex;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.box_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.box_menu {
+  display: flex;
+  padding: 2rem;
+  div {
+    margin: 0 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    &:hover {
+      color: #ff9f0d;
+    }
+  }
+}
+.img {
+  height: 20rem;
+}
