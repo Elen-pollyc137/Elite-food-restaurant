@@ -14,6 +14,10 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  @media screen and (max-width: 767px) {
+    display: flex;
+    align-items: center;
+  }
 }
 .box_title {
   display: flex;
@@ -40,4 +44,7 @@
 .img {
   height: 19.5rem;
   padding: 1rem;
+  @media screen and (max-width: 767px) {
+    height: 10rem;
+  }
 }

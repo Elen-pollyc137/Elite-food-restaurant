@@ -30,13 +30,23 @@
       color: #ff9f0d;
     }
   }
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 }
 .img {
   height: 20rem;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 }
 .box_cards {
   display: flex;
   align-items: center;
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .box_options {
   display: grid;
@@ -44,6 +54,10 @@
   color: var(--white);
 
   padding: 2rem;
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .option {
   display: flex;
@@ -51,9 +65,13 @@
   font-size: 0.875rem;
   padding: 0.625rem;
   font-family: var(--inter);
+
   img {
     height: 4.9375rem;
     margin-right: 1rem;
+    @media screen and (max-width: 767px) {
+      height: 3rem;
+    }
   }
   h3 {
     font-weight: 600;
