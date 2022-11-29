@@ -9,8 +9,57 @@ export default function OurMenu() {
   const Options = [
     {
       id: 1,
-      img: "Assets/restaurant/ourmenu/image01.png",
+      img: "Assets/restaurant/ourmenu/cards/image01.png",
       title: <>Lettuce Leaf</>,
+      text: <>Lacus nisi, et ac dapibus velit in consequat.</>,
+      price: <>12.5$</>,
+    },
+    {
+      id: 2,
+      img: "Assets/restaurant/ourmenu/cards/image02.png",
+      title: <>Fresh Breakfast</>,
+      text: <>Lacus nisi, et ac dapibus velit in consequat.</>,
+      price: <>14.5$</>,
+    },
+    {
+      id: 3,
+      img: "Assets/restaurant/ourmenu/cards/image03.png",
+      title: <>Mild Butterf</>,
+      text: <>Lacus nisi, et ac dapibus velit in consequat.</>,
+      price: <>12.5$</>,
+    },
+    {
+      id: 4,
+      img: "Assets/restaurant/ourmenu/cards/image04.png",
+      title: <>Fresh Bread</>,
+      text: <>Lacus nisi, et ac dapibus velit in consequat.</>,
+      price: <>12.5$</>,
+    },
+    {
+      id: 5,
+      img: "Assets/restaurant/ourmenu/cards/image05.png",
+      title: <>Glow Cheese</>,
+      text: <>Lacus nisi, et ac dapibus velit in consequat.</>,
+      price: <>12.5$</>,
+    },
+    {
+      id: 6,
+      img: "Assets/restaurant/ourmenu/cards/image06.png",
+      title: <>Italian Pizza</>,
+      text: <>Lacus nisi, et ac dapibus velit in consequat.</>,
+      price: <>14.5$</>,
+    },
+    {
+      id: 7,
+      img: "Assets/restaurant/ourmenu/cards/image07.png",
+      title: <>Sllice Beef</>,
+      text: <>Lacus nisi, et ac dapibus velit in consequat.</>,
+      price: <>12.5$</>,
+    },
+    {
+      id: 8,
+      img: "Assets/restaurant/ourmenu/cards/image08.png",
+      title: <>Mushaom Pizza</>,
       text: <>Lacus nisi, et ac dapibus velit in consequat.</>,
       price: <>12.5$</>,
     },
@@ -58,12 +107,16 @@ export default function OurMenu() {
           <div className={styles.box_options}>
             {Options.map(({ id, img, title, text, price }) => (
               <div key={id} className={styles.option}>
-                <div>{img}</div>
-                <h3>{title}</h3>
-                <p>{text}</p>
-                <p>
-                  <strong>{price}</strong>
-                </p>
+                <div>
+                  <img src={img} alt="" />
+                </div>
+                <div>
+                  <h3>{title}</h3>
+                  <p>{text}</p>
+                  <p>
+                    <strong>{price}</strong>
+                  </p>
+                </div>
               </div>
             ))}
           </div>
