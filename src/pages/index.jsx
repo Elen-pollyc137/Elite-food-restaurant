@@ -6,6 +6,7 @@ import WhyChoseus from "../styles-page/WhyChoseus";
 import Clientsus from "../styles-page/Clientsus";
 import OurMenu from "../styles-page/OurMenu";
 import MeetOurCheef from "../styles-page/MeetOurCheef";
+import Testimonials from "../styles-page/Testimonials";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Clientsus />
       <OurMenu />
       <MeetOurCheef />
+      <Testimonials />
     </>
   );
 }
