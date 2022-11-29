@@ -6,6 +6,16 @@ export default function OurMenu() {
     title: <>Choose & pick</>,
     title_bold: <>From Our Menu</>,
   };
+  const Options = [
+    {
+      id: 1,
+      img: "Assets/restaurant/ourmenu/image01.png",
+      title: <>Lettuce Leaf</>,
+      text: <>Lacus nisi, et ac dapibus velit in consequat.</>,
+      price: <>12.5$</>,
+    },
+  ];
+
   return (
     <section className={styles.container}>
       <div className={styles.box}>
@@ -44,6 +54,18 @@ export default function OurMenu() {
                 alt="Landscape picture"
               />
             </picture>
+          </div>
+          <div className={styles.box_options}>
+            {Options.map(({ id, img, title, text, price }) => (
+              <div key={id} className={styles.option}>
+                <div>{img}</div>
+                <h3>{title}</h3>
+                <p>{text}</p>
+                <p>
+                  <strong>{price}</strong>
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </div>
