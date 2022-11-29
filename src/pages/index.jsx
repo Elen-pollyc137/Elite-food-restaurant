@@ -5,6 +5,7 @@ import FoodCategory from "../styles-page/FoodCategory";
 import WhyChoseus from "../styles-page/WhyChoseus";
 import Clientsus from "../styles-page/Clientsus";
 import OurMenu from "../styles-page/OurMenu";
+import MeetOurCheef from "../styles-page/MeetOurCheef";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <WhyChoseus />
       <Clientsus />
       <OurMenu />
+      <MeetOurCheef />
     </>
   );
 }

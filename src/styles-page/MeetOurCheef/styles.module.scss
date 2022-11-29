@@ -1,0 +1,43 @@
+.container {
+  width: 100%;
+  padding: 5rem 0;
+  background-color: #0d0d0d;
+  background-image: url("../../../public/Assets/restaurant/meetourcheef/image05.png");
+  background-repeat: no-repeat;
+  background-size: 30rem;
+}
+.box {
+  width: 86%;
+  margin: 0 auto;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.box_title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.box_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 155px;
+  height: 50px;
+
+  font-weight: 600;
+  border: 1px solid #ff9f0d;
+  border-radius: 25px;
+  a {
+    color: var(--white);
+  }
+  &:hover {
+    background: #ff9f0d;
+  }
+}
+.img {
+  height: 19.5rem;
+  padding: 1rem;
+}
