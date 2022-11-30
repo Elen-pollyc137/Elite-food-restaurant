@@ -21,4 +21,24 @@
   height: 28rem;
   width: 54rem;
   background: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.card {
+  height: 40rem;
+  width: 45rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box_img {
+  display: flex;
+  align-items: center;
+}
+.img {
+  margin: 0 auto;
+  height: 10rem;
+  width: 10rem;
 }
