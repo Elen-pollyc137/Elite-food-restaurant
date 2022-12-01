@@ -1,4 +1,5 @@
 import BoxTitle from "../../Components/BoxTitle";
+import { IconStarbold, IconStarlight } from "./icon";
 import styles from "./styles.module.scss";
 
 export default function Testimonials() {
@@ -30,6 +31,11 @@ export default function Testimonials() {
               donec id elementum. Ultrices mattis sed vitae mus risus. Lacus
               nisi, et ac <br /> dapibus sit eu velit in consequat.
             </p>
+            <IconStarbold />
+            <IconStarbold />
+            <IconStarbold />
+            <IconStarbold />
+            <IconStarlight />
           </div>
         </div>
       </div>
