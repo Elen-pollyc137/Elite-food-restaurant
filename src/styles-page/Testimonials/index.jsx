@@ -23,19 +23,28 @@ export default function Testimonials() {
               />
             </picture>
           </div>
-          <div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              diam pellentesque <br /> bibendum non dui volutpat fringilla
-              bibendum. Urna, elit augue urna, vitae feugiat <br /> pretium
-              donec id elementum. Ultrices mattis sed vitae mus risus. Lacus
-              nisi, et ac <br /> dapibus sit eu velit in consequat.
-            </p>
-            <IconStarbold />
-            <IconStarbold />
-            <IconStarbold />
-            <IconStarbold />
-            <IconStarlight />
+          <div className={styles.box_text}>
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                diam pellentesque <br /> bibendum non dui volutpat fringilla
+                bibendum. Urna, elit augue urna, vitae feugiat <br /> pretium
+                donec id elementum. Ultrices mattis sed vitae mus risus. Lacus
+                nisi, et ac <br /> dapibus sit eu velit in consequat.
+              </p>
+            </div>
+            <div>
+              <IconStarbold />
+              <IconStarbold />
+              <IconStarbold />
+              <IconStarbold />
+              <IconStarlight />
+            </div>
+            <div className={styles.box_info}>
+              <p>
+                <strong>Alamin Hasan</strong> <br /> Food Specialist
+              </p>
+            </div>
           </div>
         </div>
       </div>

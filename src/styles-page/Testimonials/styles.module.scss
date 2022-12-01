@@ -2,7 +2,6 @@
   width: 100%;
   padding: 5rem 0;
   background-color: #0d0d0d;
-  position: absolute;
 }
 .box {
   width: 86%;
@@ -12,12 +11,15 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border: 1px solid red;
 }
 .box_title {
   width: 54rem;
   display: flex;
   flex-direction: column;
+  @media screen and (max-width: 767px) {
+    width: 20rem;
+    margin-bottom: 4rem;
+  }
 }
 .box_cards {
   margin-top: 4rem;
@@ -28,8 +30,11 @@
   align-items: center;
 
   flex-direction: column;
-
-  border: 1px solid red;
+  @media screen and (max-width: 767px) {
+    margin-top: 4rem;
+    height: 14rem;
+    width: 20rem;
+  }
 }
 .card {
   height: 10rem;
@@ -37,8 +42,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-  border: 1px solid red;
 }
 .box_img {
   width: 100%;
@@ -50,4 +53,39 @@
   margin-top: -9rem;
   height: 10rem;
   width: 10rem;
+}
+.box_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+
+  text-align: center;
+  @media screen and (max-width: 767px) {
+    gap: 1rem;
+  }
+}
+.box_info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+
+    strong {
+      font-family: "Helvetica";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      color: #333333;
+    }
+  }
 }
