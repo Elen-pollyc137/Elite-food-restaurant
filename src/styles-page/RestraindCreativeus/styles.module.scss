@@ -4,6 +4,10 @@
   background-image: url("../../../public/Assets/restaurant/restaindcreative/image01.png");
   background-size: 96rem;
   background-repeat: no-repeat;
+  @media screen and (max-width: 767px) {
+    background-size: 100rem;
+    background-position: -40rem;
+  }
 }
 .box {
   width: 86%;
