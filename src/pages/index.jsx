@@ -9,6 +9,7 @@ import MeetOurCheef from "../styles-page/MeetOurCheef";
 import Testimonials from "../styles-page/Testimonials";
 import RestraindCreativeus from "../styles-page/RestraindCreativeus";
 import LastestBlog from "../styles-page/LastestBlog";
+import Footer from "../Components/Footer";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <Testimonials />
       <RestraindCreativeus />
       <LastestBlog />
+      <Footer />
     </>
   );
 }
