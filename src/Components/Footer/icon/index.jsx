@@ -213,7 +213,7 @@ function IconPhone() {
       viewBox="0 0 16 16"
     >
       <path
-        stroke="#3DE096"
+        stroke="#FF9F0D"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="1.5"
@@ -232,7 +232,7 @@ function IconMobile() {
       viewBox="0 0 16 16"
     >
       <path
-        stroke="#3DE096"
+        stroke="#FF9F0D"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="1.5"
@@ -251,14 +251,14 @@ function IconWhatsApp() {
       viewBox="0 0 16 16"
     >
       <path
-        stroke="#3DE096"
+        stroke="#FF9F0D"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="1.5"
         d="M2.838 11.063a5.994 5.994 0 112.1 2.1v0l-2.075.587a.494.494 0 01-.613-.613l.588-2.075z"
       ></path>
       <path
-        stroke="#3DE096"
+        stroke="#FF9F0D"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="1.5"
@@ -277,14 +277,14 @@ function IconWrapper() {
       viewBox="0 0 20 16"
     >
       <path
-        stroke="#3DE096"
+        stroke="#FF9F0D"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="1.5"
         d="M17.459 3.5L9.976 9 2.494 3.5"
       ></path>
       <path
-        stroke="#3DE096"
+        stroke="#FF9F0D"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="1.5"
