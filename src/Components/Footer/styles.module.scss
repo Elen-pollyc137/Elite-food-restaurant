@@ -2,9 +2,10 @@
   width: 100%;
   border-top: 1px solid var(--gray-3);
   background: #0d0d0d;
-  background-image: url("/public/Assets/restaurant/footer/image04.png");
+  background-image: url("../../../public/Assets/restaurant/footer/image04.png");
   background-repeat: no-repeat;
   background-size: 10rem;
+  background-position: 100% 100%;
 }
 
 .box {
@@ -173,6 +174,14 @@
     border-radius: 4px;
 
     background: var(--white);
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    width: 10rem;
+    height: 2rem;
+    display: none;
   }
 }
 .info {

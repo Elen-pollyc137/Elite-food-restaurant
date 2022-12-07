@@ -30,6 +30,10 @@
   display: flex;
   flex-direction: row;
   gap: 1rem;
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .option {
   border: 1px solid var(--white);
