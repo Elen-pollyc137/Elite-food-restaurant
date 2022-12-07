@@ -2,6 +2,9 @@
   width: 100%;
   border-top: 1px solid var(--gray-3);
   background: #0d0d0d;
+  background-image: url("/public/Assets/restaurant/footer/image04.png");
+  background-repeat: no-repeat;
+  background-size: 10rem;
 }
 
 .box {
@@ -9,9 +12,8 @@
   margin: 0 auto;
 
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  border: 1px solid red;
 
   @media screen and (max-width: 767px) {
     flex-direction: column;
@@ -24,11 +26,9 @@
   height: 100%;
   width: 100%;
 
-  padding: 6rem 0;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  border: 1px solid red;
 
   p {
     font-family: var(--poppins);
@@ -39,23 +39,15 @@
 
     color: var(--white);
 
-    padding: 3rem 0;
+    padding: 1rem 0;
   }
-
   ul {
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
-    height: auto;
-    gap: 1.25rem;
     padding: 1rem 0;
-    a {
-      font-family: var(--inter);
-      font-style: normal;
-      font-weight: 400;
-      font-size: 0.875rem;
-      line-height: 1.375rem;
 
+    a {
+      padding: 1rem 0;
       color: var(--white);
     }
   }
@@ -63,6 +55,21 @@
   @media screen and (max-width: 767px) {
     height: auto;
     padding: 1rem 0;
+  }
+}
+.stamp {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  p {
+    color: var(--white);
+    strong {
+      color: var(--graphite-1);
+      font-size: 12px;
+    }
+  }
+  img {
+    height: 3rem;
   }
 }
 .title {
@@ -108,69 +115,33 @@
   justify-content: flex-start;
   align-items: center;
   width: 13.25rem;
-  a {
-    margin-left: 1rem;
-
-    font-family: var(--poppins);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.875rem;
-    line-height: 1.375rem;
-
-    color: var(--white);
-
-    padding: 2rem 0;
-  }
 }
 .box__people {
-  height: 40px;
+  height: auto;
   margin: 1rem 0;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   width: 15rem;
-
-  span {
-    height: auto;
-    margin-left: 1rem;
-
-    font-family: var(--poppins);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.875rem;
-    line-height: 1.375rem;
-
-    color: var(--white);
-  }
-  svg {
-    margin-top: 0.125rem;
-  }
 }
-.stamp {
-  display: block;
-  padding: 2rem 0;
-
-  img {
-    width: 6rem;
-  }
-}
-.info {
-  width: 86%;
-  height: 5.75rem;
+.info_up {
+  width: 70%;
+  height: 8.9375rem;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  font-family: var(--poppins);
+  font-family: var(--helvetica);
   font-style: normal;
   font-size: 0.875rem;
   line-height: 1.3125rem;
 
-  border-top: 1px solid var(--white);
+  border-bottom: 1px solid #ff9f0d;
   color: var(--white);
   strong {
     font-weight: bold;
+    font-size: 32px;
   }
 
   @media screen and (max-width: 767px) {
@@ -178,4 +149,69 @@
       font-size: 0.7rem;
     }
   }
+}
+.card_email {
+  height: 3.5rem;
+  width: 28.6875rem;
+  background: #ff9f0d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+  input {
+    width: 16rem;
+    height: 3rem;
+    background: transparent;
+    border: 0;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  button {
+    height: 3.5rem;
+    width: 11rem;
+    font-size: 1rem;
+    border-radius: 4px;
+
+    background: var(--white);
+  }
+}
+.info {
+  width: 100%;
+  height: 5.75rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: var(--poppins);
+  font-style: normal;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  background: #ff9f0d;
+  opacity: 0.8;
+
+  border-top: 1px solid var(--white);
+  color: var(--white);
+  strong {
+    font-weight: bold;
+  }
+  div {
+    width: 86%;
+
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @media screen and (max-width: 767px) {
+    span {
+      font-size: 0.7rem;
+    }
+  }
+}
+.icon_our {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
