@@ -7,5 +7,61 @@
   width: 86%;
   margin: 0 auto;
   display: flex;
-  border: 1px solid red;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.box_botton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  font-style: var(--helvetica);
+
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.option {
+  border: 1px solid var(--white);
+  width: 20.5rem;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+
+  margin: 1rem 0;
+  img {
+    height: 17rem;
+  }
+  h3 {
+    padding: 1rem;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+
+    color: #ff9f0d;
+  }
+  p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    padding: 1rem;
+  }
+}
+.cards_botton {
+  width: 90%;
+  padding: 1rem;
+
+  display: flex;
+  justify-content: space-between;
 }

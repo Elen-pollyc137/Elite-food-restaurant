@@ -1,16 +1,4 @@
-import {
-  IconFacebook,
-  IconGlobal,
-  IconInstagram,
-  IconLinkedin,
-  IconLogo,
-  IconLogoLarger,
-  IconMobile,
-  IconPhone,
-  IconWhatsApp,
-  IconWrapper,
-  IconYouTube,
-} from "./icon";
+import { IconMobile, IconPhone, IconWhatsApp, IconWrapper } from "./icon";
 import styles from "./styles.module.scss";
 
 export default function Footer() {
@@ -87,7 +75,6 @@ export default function Footer() {
           <span>
             <strong>© 2022 Cappta.</strong> Todos os direitos reservados.
           </span>
-          <IconLogo />
         </div>
       </footer>
     );
