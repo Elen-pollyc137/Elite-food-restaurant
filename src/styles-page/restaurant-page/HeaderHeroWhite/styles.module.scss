@@ -8,7 +8,59 @@
 }
 .box {
   width: 86%;
-  margin: 0 auto;
+  margin: 3rem auto;
   display: flex;
-  border: 1px solid red;
+}
+
+.box_left {
+  width: 50%;
+  margin: 3rem 0;
+}
+.img {
+  height: 41.5625rem;
+}
+
+.box_buttons {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button {
+  width: 12.1875rem;
+  height: 3.625rem;
+  background: #195a00;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  a {
+    color: var(--white);
+    font-weight: 800;
+  }
+}
+.button_transparent {
+  width: 12.1875rem;
+  height: 3.625rem;
+  border: 1px solid #195a00;
+  margin-left: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  a {
+    color: #195a00;
+    font-weight: 800;
+  }
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+  &:hover {
+    width: 12.1875rem;
+    background: #195a00;
+    a {
+      color: var(--white);
+    }
+  }
 }

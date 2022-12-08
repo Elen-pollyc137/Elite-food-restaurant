@@ -3,7 +3,7 @@ import React from "react";
 function BoxTitle({ title, title_bold, paragraph, dark }) {
   return (
     <>
-      <h2 className={styles.title}>{title}</h2>
+      <h2 className={!!dark ? styles.title_black : styles.title}>{title}</h2>
       <h1 className={!!dark ? styles.title_bold_black : styles.title_bold}>
         {title_bold}
       </h1>
