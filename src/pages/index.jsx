@@ -10,11 +10,22 @@ import Testimonials from "../styles-page/Testimonials";
 import RestraindCreativeus from "../styles-page/RestraindCreativeus";
 import LastestBlog from "../styles-page/LastestBlog";
 import Footer from "../Components/Footer";
+import { LogoHome } from "../Components/Header/NavBar/Icons";
 
 export default function Home() {
   return (
     <>
-      <NavBar />
+      <NavBar
+        home="Home"
+        menu="Menu"
+        dark="dark"
+        blog="Blog"
+        page="Pages"
+        about="About"
+        shop="Shop"
+        contact="Contact"
+        Icon={<LogoHome />}
+      />
       <HeaderHero />
       <Aboutus />
       <FoodCategory />

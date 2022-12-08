@@ -1,10 +1,6 @@
 import styles from "./styles.module.scss";
 import BoxTitle from "../../Components/BoxTitle/index";
-import {
-  IconFace,
-  IconPin,
-  IconTwiter,
-} from "../../Components/Header/NavBar/Icons";
+import { IconFace, IconPin, IconTwiter } from "./icon/index";
 
 export default function HeaderHero() {
   const data = {

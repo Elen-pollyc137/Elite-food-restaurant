@@ -1,37 +1,53 @@
 import styles from "./styles.module.scss";
-import { IconSearch, Logo } from "./Icons";
+import { IconSearch } from "./Icons";
 
-export default function NavBar() {
+function NavBar({
+  home,
+  menu,
+  blog,
+  page,
+  about,
+  shop,
+  contact,
+  Icon,
+  IconSecondary,
+  dark,
+}) {
   return (
     <nav className={styles.container}>
       <div className={styles.floating}>
         <div className={styles.box_top}>
-          <a href="#">
-            <Logo />
-          </a>
+          <a href="#">{Icon}</a>
         </div>
         <div className={styles.box_botton}>
-          <div className={styles.wrapper_links}>
+          <div
+            className={
+              !!dark ? styles.wrapper_links_dark : styles.wrapper_links
+            }
+          >
             <a href="#">
-              <div className={styles.solution}>Home</div>
+              <div className={styles.solution}>{IconSecondary}</div>
             </a>
             <a href="#">
-              <div className={styles.solution}>Menu</div>
+              <div className={styles.solution}>{home}</div>
             </a>
             <a href="#">
-              <div className={styles.solution}>Blog</div>
+              <div className={styles.solution}>{menu}</div>
             </a>
             <a href="#">
-              <div className={styles.solution}>Pages</div>
+              <div className={styles.solution}>{blog}</div>
             </a>
             <a href="#">
-              <div className={styles.solution}>About</div>
+              <div className={styles.solution}>{page}</div>
             </a>
             <a href="#">
-              <div className={styles.solution}>Shop</div>
+              <div className={styles.solution}>{about}</div>
             </a>
             <a href="#">
-              <div className={styles.solution}>Contact</div>
+              <div className={styles.solution}>{shop}</div>
+            </a>
+            <a href="#">
+              <div className={styles.solution}>{contact}</div>
             </a>
           </div>
           <div className={styles.box_search}>
@@ -47,3 +63,4 @@ export default function NavBar() {
     </nav>
   );
 }
+export default NavBar;

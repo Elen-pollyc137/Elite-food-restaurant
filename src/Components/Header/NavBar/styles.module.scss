@@ -8,6 +8,20 @@
   justify-content: center;
 
   position: absolute;
+  a {
+    color: red;
+  }
+}
+.container_black {
+  height: 2.8125rem;
+  width: 100%;
+  margin: 2rem 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
 }
 
 .floating {
@@ -37,7 +51,40 @@
   display: flex;
 
   font-family: var(--inter);
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 600;
+
+  a {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 0;
+
+    color: black;
+    &:hover {
+      color: black;
+    }
+  }
+
+  .solution {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: black;
+    padding: 0 1rem;
+
+    @media screen and (max-width: 767px) {
+      padding: 0 5px;
+    }
+  }
+}
+.wrapper_links_dark {
+  display: flex;
+
+  font-family: var(--inter);
+  font-size: 14px;
+  font-weight: 600;
 
   a {
     padding: 1rem 0;
