@@ -1,0 +1,68 @@
+.container {
+  width: 100%;
+  padding: 3rem 0;
+  background-image: linear-gradient(
+      rgba(25, 90, 0, 0.85),
+      rgba(25, 90, 0, 0.85)
+    ),
+    url("../../../../public/Assets/restaurantpage/teammember/image01.png");
+  background-size: 100% 70%;
+  background-repeat: no-repeat;
+}
+.box {
+  width: 86%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.box_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  text-align: center;
+  p {
+    color: var(--white);
+  }
+}
+.box_cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 0;
+    font-weight: 800;
+    strong {
+      font-size: 12px;
+      color: var(--graphite-1);
+    }
+  }
+}
+.img_cup {
+  margin: 2rem 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+
+  border-radius: 6px;
+  p {
+    width: 100%;
+    height: 3rem;
+    margin-top: -3rem;
+    background: var(--white);
+  }
+}
+.img {
+  height: 18rem;
+}
