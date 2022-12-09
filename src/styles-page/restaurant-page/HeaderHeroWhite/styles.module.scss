@@ -18,6 +18,20 @@
 }
 .img {
   height: 41.5625rem;
+  &:hover {
+    animation: rotate_center 10s linear infinite alternate both;
+  }
+  @keyframes rotate_center {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @media screen and (max-width: 767px) {
+    height: 16rem;
+  }
 }
 
 .box_buttons {

@@ -2,6 +2,7 @@ import NavBar from "../Components/Header/NavBar";
 import { IconLogoSecond } from "../Components/Header/NavBar/Icons";
 import FoodWhyus from "../styles-page/restaurant-page/FoodWhyus";
 import HeaderHeroWhite from "../styles-page/restaurant-page/HeaderHeroWhite";
+import WhyBest from "../styles-page/restaurant-page/WhyBest";
 
 export default function Restaurant() {
   return (
@@ -18,6 +19,7 @@ export default function Restaurant() {
       />
       <HeaderHeroWhite />
       <FoodWhyus />
+      <WhyBest />
     </>
   );
 }

@@ -21,6 +21,12 @@ export default function FoodWhyus() {
         vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.
       </>
     ),
+    paragraphtwo: (
+      <>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+        Varius sed pharetra dictum neque massa congue
+      </>
+    ),
   };
   return (
     <section className={styles.container}>
@@ -77,8 +83,60 @@ export default function FoodWhyus() {
           </div>
         </div>
         <div className={styles.box_botton}>
-          {" "}
-          <div className={styles.box_cards}> </div>
+          <BoxTitle
+            title_bold="Food category"
+            paragraph={data.paragraphtwo}
+            dark="dark"
+          />
+          <div className={styles.box_cards}>
+            {" "}
+            <picture>
+              <img
+                src="Assets/restaurantpage/foodwhyus/image04.png"
+                className={styles.img_cup}
+                alt="Landscape picture"
+              />
+              <p>
+                Grand Italiano <br />
+                <strong>26 Item</strong>
+              </p>
+            </picture>{" "}
+            <picture>
+              <img
+                src="Assets/restaurantpage/foodwhyus/image04.png"
+                className={styles.img_cup}
+                alt="Landscape picture"
+              />
+              <p>
+                Pene Salmone
+                <br />
+                <strong>26 Item</strong>
+              </p>
+            </picture>{" "}
+            <picture>
+              <img
+                src="Assets/restaurantpage/foodwhyus/image04.png"
+                className={styles.img_cup}
+                alt="Landscape picture"
+              />
+              <p>
+                Molto Tagliatelle
+                <br />
+                <strong>26 Item</strong>
+              </p>
+            </picture>{" "}
+            <picture>
+              <img
+                src="Assets/restaurantpage/foodwhyus/image04.png"
+                className={styles.img_cup}
+                alt="Landscape picture"
+              />
+              <p>
+                Pepperoni tagli <br />
+                <strong>26 Item</strong>
+              </p>
+            </picture>
+          </div>
         </div>
       </div>
     </section>
