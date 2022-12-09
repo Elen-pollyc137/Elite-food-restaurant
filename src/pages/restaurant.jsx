@@ -5,6 +5,7 @@ import CostumerRewiew from "../styles-page/restaurant-page/CostumerRewiew";
 import FoodMenu from "../styles-page/restaurant-page/FoodMenu";
 import FoodWhyus from "../styles-page/restaurant-page/FoodWhyus";
 import HeaderHeroWhite from "../styles-page/restaurant-page/HeaderHeroWhite";
+import LatestBlog from "../styles-page/restaurant-page/LatestBlog";
 import TeamMember from "../styles-page/restaurant-page/TeamMember";
 import WhyBest from "../styles-page/restaurant-page/WhyBest";
 
@@ -27,6 +28,7 @@ export default function Restaurant() {
       <FoodMenu />
       <TeamMember />
       <CostumerRewiew data={dataTestimonials} />
+      <LatestBlog />
     </>
   );
 }

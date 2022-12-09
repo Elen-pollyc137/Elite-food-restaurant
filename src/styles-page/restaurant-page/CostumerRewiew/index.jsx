@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import useDeviceSize from "../../../hooks/useDeviceSize";
 import styles from "./styles.module.scss";
 import BoxTitle from "../../../Components/BoxTitle";
-import { IconArrowClear, IconArrowDark } from "./icon";
+import { IconArrowClear, IconArrowDark, IconNumber } from "./icon";
 
 export default function CostumerRewiew({ data }) {
   const carrosel = useRef();
@@ -34,6 +34,8 @@ export default function CostumerRewiew({ data }) {
     title_bold: <>Customer Review</>,
     paragraph: (
       <>
+        <IconNumber />
+        <br />
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam{" "}
         <br />
         pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit
