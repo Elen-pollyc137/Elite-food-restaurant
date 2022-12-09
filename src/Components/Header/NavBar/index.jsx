@@ -28,10 +28,10 @@ function NavBar({
             <a href="#">
               <div className={styles.solution}>{IconSecondary}</div>
             </a>
-            <a href="#">
+            <a href="/">
               <div className={styles.solution}>{home}</div>
             </a>
-            <a href="#">
+            <a href="/restaurant">
               <div className={styles.solution}>{menu}</div>
             </a>
             <a href="#">
