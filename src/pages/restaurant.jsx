@@ -1,5 +1,7 @@
+import { dataTestimonials } from "../Components/data/costumerrewiew";
 import NavBar from "../Components/Header/NavBar";
 import { IconLogoSecond } from "../Components/Header/NavBar/Icons";
+import CostumerRewiew from "../styles-page/restaurant-page/CostumerRewiew";
 import FoodMenu from "../styles-page/restaurant-page/FoodMenu";
 import FoodWhyus from "../styles-page/restaurant-page/FoodWhyus";
 import HeaderHeroWhite from "../styles-page/restaurant-page/HeaderHeroWhite";
@@ -24,6 +26,7 @@ export default function Restaurant() {
       <WhyBest />
       <FoodMenu />
       <TeamMember />
+      <CostumerRewiew data={dataTestimonials} />
     </>
   );
 }
