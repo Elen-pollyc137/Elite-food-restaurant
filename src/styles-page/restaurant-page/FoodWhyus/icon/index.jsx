@@ -7,7 +7,7 @@ function IconPlay() {
       fill="none"
       viewBox="0 0 60 60"
     >
-      <circle cx="30" cy="30" r="30" fill="#FF9F0D"></circle>
+      <circle cx="30" cy="30" r="30" fill="#195A00"></circle>
       <path
         stroke="#fff"
         strokeLinecap="round"
