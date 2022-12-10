@@ -109,7 +109,7 @@ export default function FoodMenu() {
     },
   ];
   return (
-    <section className={styles.container}>
+    <section id="menu" className={styles.container}>
       <div className={styles.box}>
         {" "}
         <div className={styles.box_title}>

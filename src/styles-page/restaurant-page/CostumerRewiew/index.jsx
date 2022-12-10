@@ -23,11 +23,13 @@ export default function CostumerRewiew({ data }) {
     e.preventDefault();
     carrosel.current.scrollLeft -= 27 * screen;
     setMove(move + 1);
+    console.log("Esquerda");
   };
   const handlerRightClick = (e) => {
     e.preventDefault();
     carrosel.current.scrollLeft += 27 * screen;
     setMove(move - 1);
+    console.log("Direita");
   };
   const info = {
     title: <>Testimonials</>,
@@ -45,7 +47,7 @@ export default function CostumerRewiew({ data }) {
       </>
     ),
   };
-
+  console.log("move", move);
   return (
     <section className={styles.container}>
       <div className={styles.box}>
@@ -90,7 +92,7 @@ export default function CostumerRewiew({ data }) {
               <button
                 className={styles.button_left}
                 onClick={handlerRightClick}
-                disabled={move === 0}
+                disabled={move === -1}
               >
                 {move !== 0 ? <IconArrowDark /> : <IconArrowDark />}
               </button>

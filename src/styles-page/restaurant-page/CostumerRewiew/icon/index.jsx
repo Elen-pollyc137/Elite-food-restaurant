@@ -8,7 +8,7 @@ function IconArrowClear() {
       viewBox="0 0 24 24"
     >
       <path
-        stroke="#828282"
+        stroke="#333"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="1.5"

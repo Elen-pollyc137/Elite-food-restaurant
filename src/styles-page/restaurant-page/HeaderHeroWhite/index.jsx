@@ -1,5 +1,6 @@
 import styles from "./styles.module.scss";
 import BoxTitle from "../../../Components/BoxTitle/index";
+import Link from "next/link";
 
 export default function HeaderHeroWhite() {
   const title_bold = (
@@ -28,9 +29,9 @@ export default function HeaderHeroWhite() {
             <div className={styles.button}>
               <a href="#">Show more</a>
             </div>
-            <a className={styles.button_transparent}>
-              <a href="#">Place an order</a>
-            </a>
+            <Link href="/restaurant#menu" className={styles.button_transparent}>
+              Place an order
+            </Link>
           </div>
         </div>
         <div className={styles.box_right}>
