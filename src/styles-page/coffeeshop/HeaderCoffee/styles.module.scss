@@ -1,0 +1,117 @@
+.container {
+  width: 100%;
+  padding: 8rem 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../../../../public/Assets/coffee-shop/headercoffee/image01.png");
+  background-size: 80rem;
+}
+
+.box {
+  width: 86%;
+
+  margin: 0 auto;
+  display: flex;
+  background-image: url("../../../../public/Assets/coffee-shop/headercoffee/image02.png");
+  background-size: 80rem;
+  background-repeat: no-repeat;
+  background-position: 10%;
+}
+.box_title {
+  padding: 2rem;
+  h3 {
+    font-family: var(--inter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #ffffff;
+  }
+  h1 {
+    font-family: var(--helvetica);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 68px;
+    /* or 113% */
+
+    /* Primary coffee */
+
+    color: #bc9a6c;
+  }
+  p {
+    font-family: var(--inter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    /* fffffff */
+
+    color: #ffffff;
+  }
+}
+.box_btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.box_button_trans {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+
+  height: 3.75rem;
+  width: 11.875rem;
+  border: 1px solid #bc9a6c;
+  border-radius: 0.25rem;
+
+  a {
+    color: #bc9a6c;
+    font-family: var(--inter);
+    font-weight: 600;
+  }
+}
+.box_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+
+  height: 3.75rem;
+  width: 11.875rem;
+  background: #bc9a6c;
+  border-radius: 0.25rem;
+
+  a {
+    color: white;
+    font-family: var(--inter);
+    font-weight: 600;
+  }
+}
+.box_right {
+  height: 28rem;
+  width: 22rem;
+  border: 1px solid #bc9a6c;
+  position: absolute;
+  right: 15rem;
+  border-radius: 6px;
+}
+.box_img {
+  position: relative;
+  margin: 2rem;
+  height: 28rem;
+  width: 22rem;
+  border-radius: 6px;
+
+  background-image: url("../../../../public/Assets/coffee-shop/headercoffee/image03.png");
+  background-size: 25rem;
+  background-repeat: no-repeat;
+  transition: ease 0.2;
+  &:hover {
+    background-image: url("../../../../public/Assets/coffee-shop/headercoffee/image04.png");
+    background-repeat: no-repeat;
+  }
+}
