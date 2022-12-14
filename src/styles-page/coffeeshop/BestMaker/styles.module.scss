@@ -1,0 +1,69 @@
+.container {
+  width: 100%;
+  padding: 5rem 0;
+}
+.box {
+  width: 86%;
+  margin: 0 auto;
+  display: flex;
+}
+.box_title {
+  margin: 0 4rem;
+  h3 {
+    font-family: var(--inter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #333333;
+  }
+  h1 {
+    font-family: var(--helvetica);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 68px;
+    /* or 113% */
+
+    /* Primary coffee */
+
+    color: #333333;
+  }
+  p {
+    font-family: var(--inter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+
+    color: #333333;
+  }
+}
+.options {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  img {
+    height: 6.125rem;
+  }
+  h3 {
+    font-family: var(--helvetica);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #333333;
+  }
+  p {
+    font-family: var(--helvetica);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #4f4f4f;
+  }
+}
+.img {
+  height: 39.3125rem;
+}

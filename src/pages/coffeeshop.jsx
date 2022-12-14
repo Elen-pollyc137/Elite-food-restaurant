@@ -1,4 +1,5 @@
 import NavBar from "../Components/Header/NavBar";
+import BestMaker from "../styles-page/coffeeshop/BestMaker";
 import CategoryCoffee from "../styles-page/coffeeshop/CategoryCoffee/indes";
 import CoffeeMaker from "../styles-page/coffeeshop/CoffeeMaker";
 import HeaderCoffee from "../styles-page/coffeeshop/HeaderCoffee";
@@ -19,6 +20,7 @@ export default function Coffeeshop() {
       <HeaderCoffee />
       <CoffeeMaker />
       <CategoryCoffee />
+      <BestMaker />
     </>
   );
 }
