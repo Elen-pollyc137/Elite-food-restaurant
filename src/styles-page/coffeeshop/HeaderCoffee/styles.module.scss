@@ -16,6 +16,10 @@
   background-size: 80rem;
   background-repeat: no-repeat;
   background-position: 10%;
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .box_title {
   padding: 2rem;
