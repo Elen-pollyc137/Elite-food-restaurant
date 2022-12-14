@@ -71,3 +71,40 @@
     font-weight: 600;
   }
 }
+.box_img {
+  height: 25rem;
+  width: 20rem;
+  background-image: url("../../../../public/Assets/coffee-shop/coffeecategory/image07.png");
+  background-size: 20rem;
+  background-position: 70% 100%;
+  background-repeat: no-repeat;
+}
+.box_right {
+  display: flex;
+  justify-content: space-between;
+}
+.options {
+  display: flex;
+  align-items: center;
+  img {
+    height: 10rem;
+  }
+  h3 {
+    font-family: var(--helvetica);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: #4f4f4f;
+  }
+  p {
+    font-family: var(--inter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+
+    color: #4f4f4f;
+  }
+}
