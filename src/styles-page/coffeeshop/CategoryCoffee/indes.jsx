@@ -10,14 +10,12 @@ export default function CategoryCoffee() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />{" "}
             Varius sed pharetra dictum neque massa congue
           </p>
-
-          <div className={styles.box_btn}>
-            <div className={styles.box_button_trans}>
-              <a href="#">Learm More</a>
-            </div>
-          </div>
         </div>
-        <div className={styles.box_right}> </div>
+        <div className={styles.box_right}>
+          <div className={styles.box_cards}> </div>
+          <div className={styles.box_img}> </div>
+          <div className={styles.box_cards_right}> </div>
+        </div>
       </div>
     </section>
   );

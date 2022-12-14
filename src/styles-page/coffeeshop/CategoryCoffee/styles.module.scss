@@ -10,6 +10,10 @@
   border: 1px solid red;
 }
 .box_title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
   padding: 2rem;
   h3 {
     font-family: var(--inter);
@@ -30,7 +34,7 @@
 
     /* Primary coffee */
 
-    color: #bc9a6c;
+    color: #1e1e1e;
   }
   p {
     font-family: var(--inter);
@@ -42,7 +46,7 @@
 
     /* fffffff */
 
-    color: #ffffff;
+    color: #4f4f4f;
   }
 }
 .box_btn {
