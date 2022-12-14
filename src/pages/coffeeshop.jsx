@@ -2,6 +2,7 @@ import NavBar from "../Components/Header/NavBar";
 import BestMaker from "../styles-page/coffeeshop/BestMaker";
 import CategoryCoffee from "../styles-page/coffeeshop/CategoryCoffee/indes";
 import CoffeeMaker from "../styles-page/coffeeshop/CoffeeMaker";
+import CustomerCoffee from "../styles-page/coffeeshop/CustomerCoffee";
 import HeaderCoffee from "../styles-page/coffeeshop/HeaderCoffee";
 import MeetCoffee from "../styles-page/coffeeshop/MeetCoffee";
 
@@ -23,6 +24,7 @@ export default function Coffeeshop() {
       <CategoryCoffee />
       <BestMaker />
       <MeetCoffee />
+      <CustomerCoffee />
     </>
   );
 }

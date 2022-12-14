@@ -1,0 +1,75 @@
+.container {
+  width: 100%;
+  padding: 5rem 0;
+}
+.box {
+  width: 86%;
+  margin: 0 auto;
+  display: flex;
+
+  background-image: url("../../../../public/Assets/coffee-shop/customercoffee/image02.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.box_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 30rem;
+  width: 50%;
+  background-image: url("../../../../public/Assets/coffee-shop/customercoffee/image01.png");
+  h3 {
+    font-family: var(--inter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #ffffff;
+  }
+  h1 {
+    font-family: var(--helvetica);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 68px;
+    /* or 113% */
+
+    /* Primary coffee */
+
+    color: #ffffff;
+  }
+  p {
+    font-family: var(--inter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #ffffff;
+  }
+}
+.box_cards {
+  h3 {
+    font-family: var(--helvetica);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+  }
+  p {
+    font-family: var(--inter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    color: #ffffff;
+  }
+}
+.img {
+  margin: 1rem 0;
+  height: 7rem;
+}
