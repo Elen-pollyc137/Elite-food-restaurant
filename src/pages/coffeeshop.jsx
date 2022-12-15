@@ -4,6 +4,7 @@ import CategoryCoffee from "../styles-page/coffeeshop/CategoryCoffee/indes";
 import CoffeeMaker from "../styles-page/coffeeshop/CoffeeMaker";
 import CustomerCoffee from "../styles-page/coffeeshop/CustomerCoffee";
 import HeaderCoffee from "../styles-page/coffeeshop/HeaderCoffee";
+import LatestCoffee from "../styles-page/coffeeshop/LatestCoffee";
 import MeetCoffee from "../styles-page/coffeeshop/MeetCoffee";
 
 export default function Coffeeshop() {
@@ -25,6 +26,7 @@ export default function Coffeeshop() {
       <BestMaker />
       <MeetCoffee />
       <CustomerCoffee />
+      <LatestCoffee />
     </>
   );
 }
