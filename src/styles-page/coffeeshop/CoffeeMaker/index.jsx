@@ -1,10 +1,18 @@
 import styles from "./styles.module.scss";
+import react from "react";
+import { useInView } from "react-intersection-observer";
 
 export default function CoffeeMaker() {
+  const { ref, inView, entry } = useInView({
+    threshold: 0,
+  });
   return (
     <section className={styles.container}>
       <div className={styles.box}>
-        <picture className={styles.box_img}>
+        <picture
+          className={inView ? styles[("box_img", "effect")] : styles.box_img}
+          ref={ref}
+        >
           <img
             src="Assets/coffee-shop/coffemaker/image01.png"
             className={styles.img}
