@@ -1,20 +1,19 @@
 .container {
   width: 100%;
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 .box {
   width: 86%;
   margin: 0 auto;
   display: flex;
-  border: 1px solid red;
 }
 .img {
   height: 39.125rem;
+  padding: 0 3rem;
 }
 .box_title {
   display: flex;
   flex-direction: column;
-  padding-left: 3rem;
 }
 .title {
   padding: 1rem 0;
@@ -23,19 +22,13 @@
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
-  /* identical to box height, or 117% */
-
   font-feature-settings: "kern" off;
-
-  /* Gray 1 */
-
   color: #333333;
 }
 .option {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  width: 40rem;
+  width: 35rem;
   height: 6.9375rem;
   border-bottom: 1px dashed #e0e0e0;
 
