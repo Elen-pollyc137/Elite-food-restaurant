@@ -43,7 +43,7 @@ function NavBar({
             <a href="#">
               <div className={styles.solution}>{about}</div>
             </a>
-            <a href="#">
+            <a href="/shoplist">
               <div className={styles.solution}>{shop}</div>
             </a>
             <a href="#">
