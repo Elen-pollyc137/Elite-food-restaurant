@@ -1,3 +1,4 @@
+import IconCaretRight from "./icon";
 import styles from "./styles.module.scss";
 
 export default function OurShop({ title, link }) {
@@ -6,7 +7,13 @@ export default function OurShop({ title, link }) {
       <div className={styles.box}>
         <h1>{title}</h1>
         <div>
-          <p>Home:</p> <a href="#">{link}</a>
+          <p>
+            Home{" "}
+            <strong>
+              <IconCaretRight />
+            </strong>
+          </p>{" "}
+          <a href="#">{link}</a>
         </div>
       </div>
     </section>

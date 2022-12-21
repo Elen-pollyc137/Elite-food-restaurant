@@ -18,10 +18,15 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
   div {
     display: flex;
+
+    justify-content: center;
+    width: 11rem;
   }
   h1 {
+    display: flex;
     font-family: var(--helvetica);
     font-style: normal;
     font-weight: 700;
@@ -30,7 +35,16 @@
     color: #ffffff;
   }
   p {
+    display: flex;
+    align-items: center;
+
     color: #ffffff;
+    strong {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 1.5rem;
+    }
   }
   a {
     margin: 0 0.3125rem;
