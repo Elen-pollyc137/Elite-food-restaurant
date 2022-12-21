@@ -1,7 +1,12 @@
 import NavBar from "../Components/Header/NavBar";
 import OurShop from "../Components/OurShop";
 import MenuTemplate from "../styles-page/menu/MenuTemplate";
-import { Options1 } from "../Components/data/menutemplate";
+import {
+  Options1,
+  Options2,
+  Options3,
+  Options4,
+} from "../Components/data/menutemplate";
 import MeetOurCheef from "../styles-page/MeetOurCheef";
 import Clientsus from "../styles-page/Clientsus";
 import Partners from "../styles-page/restaurant-page/Partners";
@@ -34,18 +39,18 @@ export default function Menu() {
       />
       <MenuTemplate
         title="Main Course"
-        data={Options1}
+        data={Options2}
         imgright="Assets/menu/menutemplate/image02.png"
       />
       <Clientsus />
       <MenuTemplate
         title="Dessert"
-        data={Options1}
+        data={Options3}
         img="Assets/menu/menutemplate/image03.png"
       />
       <MenuTemplate
         title="Drinks"
-        data={Options1}
+        data={Options4}
         imgright="Assets/menu/menutemplate/image04.png"
       />
       <Partners />

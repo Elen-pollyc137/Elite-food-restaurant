@@ -29,20 +29,20 @@ export const Options1 = [
 export const Options2 = [
   {
     id: 1,
-    title: <>Alder Grilled Chinook Salmon</>,
+    title: <>Optic Big Breakfast Combo Menu</>,
     text: <>Toasted French bread topped with romano, cheddar</>,
     price: <>32$</>,
   },
   {
     id: 2,
 
-    title: <>Berries and creme tart</>,
+    title: <>Cashew Chicken With Stir-Fry</>,
     text: <>Gorgonzola, ricotta, mozzarella, taleggio</>,
     price: <>43$</>,
   },
   {
     id: 3,
-    title: <>Tormentoso Bush Pizza Pintoage</>,
+    title: <> Vegetables & Green Salad</>,
     text: <>Ground cumin, avocados, peeled and cubed</>,
     price: <>14$</>,
   },
@@ -57,27 +57,27 @@ export const Options2 = [
 export const Options3 = [
   {
     id: 1,
-    title: <>Alder Grilled Chinook Salmon</>,
+    title: <>Fig and lemon cake</>,
     text: <>Toasted French bread topped with romano, cheddar</>,
     price: <>32$</>,
   },
   {
     id: 2,
 
-    title: <>Berries and creme tart</>,
+    title: <>Creamy mascarpone cake</>,
     text: <>Gorgonzola, ricotta, mozzarella, taleggio</>,
     price: <>43$</>,
   },
   {
     id: 3,
-    title: <>Tormentoso Bush Pizza Pintoage</>,
+    title: <>Pastry, blueberries, lemon juice</>,
     text: <>Ground cumin, avocados, peeled and cubed</>,
     price: <>14$</>,
   },
   {
     id: 4,
 
-    title: <>Spicy Vegan Potato Curry</>,
+    title: <>Pain au chocolat</>,
     text: <>Spreadable cream cheese, crumbled blue cheese</>,
     price: <>35$</>,
   },
@@ -85,27 +85,27 @@ export const Options3 = [
 export const Options4 = [
   {
     id: 1,
-    title: <>Alder Grilled Chinook Salmon</>,
+    title: <>Caffè macchiato</>,
     text: <>Toasted French bread topped with romano, cheddar</>,
     price: <>32$</>,
   },
   {
     id: 2,
 
-    title: <>Berries and creme tart</>,
+    title: <>Aperol Spritz Capacianno</>,
     text: <>Gorgonzola, ricotta, mozzarella, taleggio</>,
     price: <>43$</>,
   },
   {
     id: 3,
-    title: <>Tormentoso Bush Pizza Pintoage</>,
+    title: <>Caffe Latte Campuri</>,
     text: <>Ground cumin, avocados, peeled and cubed</>,
     price: <>14$</>,
   },
   {
     id: 4,
 
-    title: <>Spicy Vegan Potato Curry</>,
+    title: <>Tormentoso BushTea Pintoage</>,
     text: <>Spreadable cream cheese, crumbled blue cheese</>,
     price: <>35$</>,
   },
