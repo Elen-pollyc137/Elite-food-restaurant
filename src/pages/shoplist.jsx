@@ -1,5 +1,7 @@
 import NavBar from "../Components/Header/NavBar";
 import OurShop from "../Components/OurShop";
+import { datashoplist } from "../Components/data/shoplist";
+import MenuShop from "../styles-page/shoplist/MenuShop";
 
 export default function ShopList() {
   return (
@@ -15,6 +17,7 @@ export default function ShopList() {
         dark="dark"
       />
       <OurShop title="Our Menu" link="Shop" />
+      <MenuShop data={datashoplist} />
     </>
   );
 }
