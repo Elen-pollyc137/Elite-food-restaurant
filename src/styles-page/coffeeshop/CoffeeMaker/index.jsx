@@ -10,7 +10,7 @@ export default function CoffeeMaker() {
     <section className={styles.container}>
       <div className={styles.box}>
         <picture
-          className={inView ? styles[("box_img", "effect")] : styles.box_img}
+          className={inView ? `${styles.box_img} effect` : styles.box_img}
           ref={ref}
         >
           <img

@@ -1,40 +1,35 @@
 import styles from "./styles.module.scss";
-import { useState } from "react";
 
-const datashoplist = [
-  "sandwiches",
-  "Chicken",
-  "Pizza",
-  "Drink",
-  "Burger",
-  "Muffin",
-  "Lime",
-  "Fresh",
-];
-
-export default function MenuShop() {
-  const [busca, setBusca] = useState("");
-  const frutasFiltradas = datashoplist.filter((fruta) =>
-    fruta.startsWith(busca)
-  );
+export default function MenuShop({ data }) {
+  const datashoplist = [
+    {
+      id: 1,
+      name: "Abdur Rahman",
+      profession: "Customer",
+      image: "/Assets/shoplist/menushop/image01.png",
+    },
+    {
+      id: 2,
+      name: "Maik",
+      profession: "Customer",
+      image: "/Assets/shoplist/menushop/image02.png",
+    },
+  ];
 
   return (
     <section className={styles.container}>
       <div className={styles.box}>
         <div>
           <h1>Nome</h1>
-          <input
-            type="text"
-            value={busca}
-            onChange={(ev) => setBusca(ev.target.value)}
-          />
         </div>
-        <div>
-          <ul>
-            {frutasFiltradas.map((fruta) => (
-              <li key={fruta}>{fruta}</li>
-            ))}
-          </ul>
+        <div className={styles.box_options}>
+          {data.map(({ id, name, profession, image }) => (
+            <article key={Math.random()}>
+              <div key={id} className={styles.option}>
+                <img src={image} alt="" />
+              </div>
+            </article>
+          ))}
         </div>
       </div>
     </section>
