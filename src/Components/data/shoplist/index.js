@@ -17,4 +17,22 @@ export const datashoplist = [
     profession: "Customer",
     image: "/Assets/shoplist/menushop/image03.png",
   },
+  {
+    id: 4,
+    name: "Maik",
+    profession: "Customer",
+    image: "/Assets/shoplist/menushop/image04.png",
+  },
+  {
+    id: 5,
+    name: "Maik",
+    profession: "Customer",
+    image: "/Assets/shoplist/menushop/image05.png",
+  },
+  {
+    id: 6,
+    name: "Maik",
+    profession: "Customer",
+    image: "/Assets/shoplist/menushop/image06.png",
+  },
 ];
