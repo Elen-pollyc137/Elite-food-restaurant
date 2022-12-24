@@ -8,3 +8,16 @@
   display: flex;
   border: 1px solid red;
 }
+.box_options {
+  width: 70%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+.option {
+  display: flex;
+
+  img {
+    height: 12rem;
+  }
+}

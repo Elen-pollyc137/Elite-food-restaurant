@@ -19,9 +19,6 @@ export default function MenuShop({ data }) {
   return (
     <section className={styles.container}>
       <div className={styles.box}>
-        <div>
-          <h1>Nome</h1>
-        </div>
         <div className={styles.box_options}>
           {data.map(({ id, name, profession, image }) => (
             <article key={Math.random()}>

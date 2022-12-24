@@ -75,7 +75,7 @@ a {
   cursor: pointer;
 }
 .effect {
-  animation: offs 1s cubic-bezier(039, 0.575, 0.565, 1);
+  // animation: offs 1s cubic-bezier(039, 0.575, 0.565, 1);
   @keyframes offs {
     0% {
       opacity: 0;
