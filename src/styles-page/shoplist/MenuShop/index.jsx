@@ -30,6 +30,9 @@ export default function MenuShop({ data }) {
             </article>
           ))}
         </div>
+        <div className={styles.box_right}>
+          <input type="text" />
+        </div>
       </div>
     </section>
   );
