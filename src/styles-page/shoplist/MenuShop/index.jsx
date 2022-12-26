@@ -20,10 +20,12 @@ export default function MenuShop({ data }) {
     <section className={styles.container}>
       <div className={styles.box}>
         <div className={styles.box_options}>
-          {data.map(({ id, name, profession, image }) => (
+          {data.map(({ id, menu, price, image }) => (
             <article key={Math.random()}>
               <div key={id} className={styles.option}>
                 <img src={image} alt="" />
+                <h3>{menu}</h3>
+                <p>{price}</p>
               </div>
             </article>
           ))}
