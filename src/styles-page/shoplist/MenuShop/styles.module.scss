@@ -9,7 +9,7 @@
   border: 1px solid red;
 }
 .box_options {
-  width: 70%;
+  width: 66%;
   border: 1px solid red;
   display: grid;
   grid-template-columns: 15rem 15rem 15rem;
@@ -18,9 +18,9 @@
   display: flex;
   justify-content: center;
   height: 17rem;
-  border: 1px solid red;
 
   img {
     height: 12rem;
+    border-radius: 5px;
   }
 }
