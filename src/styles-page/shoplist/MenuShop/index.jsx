@@ -1,18 +1,50 @@
 import styles from "./styles.module.scss";
+function Icon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="46"
+      height="46"
+      fill="none"
+      viewBox="0 0 46 46"
+    >
+      <path fill="#FF9F0D" d="M46 0H0v46h46V0z"></path>
+      <path
+        stroke="#fff"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.5"
+        d="M22.063 28.625a6.562 6.562 0 100-13.125 6.562 6.562 0 000 13.125zM26.703 26.703L30.5 30.5"
+      ></path>
+    </svg>
+  );
+}
 
 export default function MenuShop({ data }) {
-  const datashoplist = [
+  const Optionscheck = [
     {
       id: 1,
-      name: "Abdur Rahman",
-      profession: "Customer",
-      image: "/Assets/shoplist/menushop/image01.png",
+      name: "Sandwiches",
     },
     {
       id: 2,
-      name: "Maik",
-      profession: "Customer",
-      image: "/Assets/shoplist/menushop/image02.png",
+      name: "Burger",
+    },
+    {
+      id: 3,
+      name: "Chicken Chup",
+    },
+    {
+      id: 4,
+      name: "Drink",
+    },
+    {
+      id: 5,
+      name: "Pizza",
+    },
+    {
+      id: 6,
+      name: "Uncategorized",
     },
   ];
 
@@ -31,11 +63,25 @@ export default function MenuShop({ data }) {
           ))}
         </div>
         <div className={styles.box_right}>
-          <div className={styles.box_}>
-            <input type="text" />{" "}
+          <div className={styles.box_search}>
+            <input type="text" />
+            <Icon />
           </div>
-          <div className={styles.box_buton}> </div>
-          <div className={styles.box_card}> </div>
+          <div className={styles.box_check}>
+            {Optionscheck.map(({ id, name }) => (
+              <div key={id} className={styles.checkbox_rect}>
+                <input type="checkbox" id="checkbox-rect1" name="check" />
+                <label for="checkbox-rect1">{name}</label>
+              </div>
+            ))}
+          </div>
+          <picture className={styles.box_image}>
+            <img
+              src="Assets/shoplist/menushop/image10.png"
+              className={styles.img}
+            />
+          </picture>
+          <div className={styles.box_card}></div>
         </div>
       </div>
     </section>
