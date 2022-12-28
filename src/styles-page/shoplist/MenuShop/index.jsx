@@ -81,6 +81,9 @@ export default function MenuShop({ data }) {
               className={styles.img}
             />
           </picture>
+          <div>
+            <input type="range" />
+          </div>
           <div className={styles.box_card}></div>
         </div>
       </div>
