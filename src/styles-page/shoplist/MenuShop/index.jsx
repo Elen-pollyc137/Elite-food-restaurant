@@ -31,7 +31,10 @@ export default function MenuShop({ data }) {
           ))}
         </div>
         <div className={styles.box_right}>
-          <input type="text" />
+          <div className={styles.box_}>
+            <input type="text" />{" "}
+          </div>
+          <div className={styles.box_buton}> </div>
         </div>
       </div>
     </section>
