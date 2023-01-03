@@ -86,9 +86,9 @@ export default function MenuShop({ data }) {
           </div>
           <div className={styles.box_card}>
             <div>
-              <a href="#">Drink</a>
-              <a href="#">Drink</a>
-              <a href="#">Drink</a>
+              <a href="#">Services</a>
+              <a href="#">Our Menu</a>
+              <a href="#">Pizza</a>
             </div>
             <div>
               <a href="#">Drink</a>
