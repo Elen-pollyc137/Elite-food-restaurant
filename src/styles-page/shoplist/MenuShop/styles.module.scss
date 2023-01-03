@@ -119,3 +119,10 @@
     height: 24em;
   }
 }
+.box_card {
+  height: 10rem;
+  width: 10rem;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+}
