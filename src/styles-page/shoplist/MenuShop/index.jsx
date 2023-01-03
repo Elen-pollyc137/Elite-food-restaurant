@@ -91,9 +91,9 @@ export default function MenuShop({ data }) {
               <a href="#">Pizza</a>
             </div>
             <div>
-              <a href="#">Drink</a>
-              <a href="#">Drink</a>
-              <a href="#">Drink</a>
+              <a href="#">Cupcake</a>
+              <a href="#">Burger</a>
+              <a href="#">Cookies</a>
             </div>
             <div>
               <a href="#">Drink</a>
