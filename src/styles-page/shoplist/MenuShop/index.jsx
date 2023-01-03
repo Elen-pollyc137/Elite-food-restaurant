@@ -96,9 +96,8 @@ export default function MenuShop({ data }) {
               <a href="#">Cookies</a>
             </div>
             <div>
-              <a href="#">Drink</a>
-              <a href="#">Drink</a>
-              <a href="#">Drink</a>
+              <a href="#">Our Shop</a>
+              <a href="#">Tandoori Chicken</a>
             </div>
           </div>
         </div>
