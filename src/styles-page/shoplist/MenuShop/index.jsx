@@ -84,7 +84,9 @@ export default function MenuShop({ data }) {
           <div>
             <input type="range" />
           </div>
-          <div className={styles.box_card}>
+          <div className={styles.box_card}></div>
+          <div className={styles.box_link}>
+            {" "}
             <div>
               <a href="#">Services</a>
               <a href="#">Our Menu</a>
