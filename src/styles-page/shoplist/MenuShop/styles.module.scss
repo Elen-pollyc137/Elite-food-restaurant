@@ -140,3 +140,15 @@
     }
   }
 }
+
+.box_range {
+  width: 20rem;
+  height: 2rem;
+
+  display: flex;
+  justify-content: center;
+  input {
+    width: 20rem;
+    background: #ff9f0d;
+  }
+}
