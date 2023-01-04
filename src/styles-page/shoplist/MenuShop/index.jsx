@@ -88,7 +88,6 @@ export default function MenuShop({ data }) {
             <div className={styles.link_card}> </div>
           </div>
           <div className={styles.box_link}>
-            {" "}
             <div>
               <a href="#">Services</a>
               <a href="#">Our Menu</a>
