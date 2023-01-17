@@ -7,9 +7,30 @@
   margin: 0 auto;
   display: flex;
   border: 1px solid red;
+  gap: 3rem;
+}
+.box_title {
+  padding: 1rem 0;
+  border-bottom: 1px solid #e0e0e0;
+  h3 {
+    width: 86px;
+    height: 28px;
+
+    background: #ff9f0d;
+    border-radius: 6px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #ffffff;
+  }
 }
 .box_image {
   img {
-    height: 37.25rem;
+    height: 35rem;
   }
 }
