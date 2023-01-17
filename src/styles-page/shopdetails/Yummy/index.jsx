@@ -1,5 +1,6 @@
 import styles from "./styles.module.scss";
 import BoxTitle from "../../../Components/BoxTitle";
+import IconStar from "./icon";
 
 export default function Yummy() {
   const date = {
@@ -35,7 +36,19 @@ export default function Yummy() {
               dark="dark"
             />
           </div>
-          <div className={styles.box_price}> </div>
+          <div className={styles.box_price}>
+            <h3>54.00$</h3>
+            <div className={styles.rating}>
+              <IconStar />{" "}
+              <p>
+                <strong>|</strong> 5.0 Rating
+              </p>{" "}
+              <p>
+                <strong>|</strong> 22 Review
+              </p>
+            </div>
+            <div className={styles.button}> </div>
+          </div>
           <div className={styles.box_info}> </div>
         </div>
       </div>

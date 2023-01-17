@@ -9,6 +9,12 @@
   border: 1px solid red;
   gap: 3rem;
 }
+.box_image {
+  img {
+    height: 35rem;
+  }
+}
+
 .box_title {
   padding: 1rem 0;
   border-bottom: 1px solid #e0e0e0;
@@ -29,8 +35,35 @@
     color: #ffffff;
   }
 }
-.box_image {
-  img {
-    height: 35rem;
+.box_price {
+  padding: 1rem 0;
+  border: 1px solid red;
+  gap: 1rem;
+  h3 {
+    font-family: var(--helvetica);
+    margin: 1rem 0;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: #333333;
+  }
+  .rating {
+    display: flex;
+    gap: 1rem;
+    p {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+
+      color: #828282;
+      strong {
+        margin: 0 1rem;
+        color: #a9a9a9;
+        font-size: 12px;
+      }
+    }
   }
 }
