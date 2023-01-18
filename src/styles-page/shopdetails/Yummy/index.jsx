@@ -1,6 +1,9 @@
 import styles from "./styles.module.scss";
 import BoxTitle from "../../../Components/BoxTitle";
-import IconStar from "./icon";
+
+import { useState } from "react";
+import { IconFace } from "../../HeaderHero/icon";
+import { IconBag, IconStar } from "./icon";
 
 export default function Yummy() {
   const date = {
@@ -16,6 +19,8 @@ export default function Yummy() {
       </>
     ),
   };
+  const [contador, setContador] = useState(0);
+
   return (
     <section className={styles.container}>
       <div className={styles.box}>
@@ -39,15 +44,27 @@ export default function Yummy() {
           <div className={styles.box_price}>
             <h3>54.00$</h3>
             <div className={styles.rating}>
-              <IconStar />{" "}
+              <IconStar />
               <p>
                 <strong>|</strong> 5.0 Rating
-              </p>{" "}
+              </p>
               <p>
                 <strong>|</strong> 22 Review
               </p>
             </div>
-            <div className={styles.button}> </div>
+            <div className={styles.button}>
+              <div className={styles.btn_count}>
+                <button onClick={() => setContador(contador - 1)}>-</button>
+                <p>{contador}</p>
+                <button onClick={() => setContador(contador + 1)}>+</button>
+              </div>
+              <div className={styles.btn_add}>
+                <button>
+                  <IconBag />
+                  <p> Add to cart</p>
+                </button>
+              </div>
+            </div>
           </div>
           <div className={styles.box_info}> </div>
         </div>

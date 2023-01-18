@@ -1,5 +1,3 @@
-import React from "react";
-
 function IconStar() {
   return (
     <svg
@@ -16,5 +14,31 @@ function IconStar() {
     </svg>
   );
 }
+function IconBag() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"
+      fill="none"
+      viewBox="0 0 20 20"
+    >
+      <path
+        stroke="#fff"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.5"
+        d="M16.875 5.625H3.125a.625.625 0 00-.625.625v10c0 .345.28.625.625.625h13.75c.345 0 .625-.28.625-.625v-10a.625.625 0 00-.625-.625z"
+      ></path>
+      <path
+        stroke="#fff"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.5"
+        d="M6.875 8.125v-2.5a3.125 3.125 0 016.25 0v2.5"
+      ></path>
+    </svg>
+  );
+}
 
-export default IconStar;
+export { IconStar, IconBag };
