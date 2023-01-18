@@ -1,5 +1,6 @@
 import NavBar from "../Components/Header/NavBar";
 import OurShop from "../Components/OurShop";
+import Discription from "../styles-page/shopdetails/Discrption";
 import Yummy from "../styles-page/shopdetails/Yummy";
 
 export default function ShopList() {
@@ -17,6 +18,7 @@ export default function ShopList() {
       />
       <OurShop title="Our Menu" link="Details" />
       <Yummy />
+      <Discription />
     </>
   );
 }
