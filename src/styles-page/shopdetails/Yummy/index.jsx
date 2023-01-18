@@ -3,7 +3,7 @@ import BoxTitle from "../../../Components/BoxTitle";
 
 import { useState } from "react";
 import { IconFace } from "../../HeaderHero/icon";
-import { IconBag, IconStar } from "./icon";
+import { IconBag, IconGitdiff, IconHeart, IconShare, IconStar } from "./icon";
 
 export default function Yummy() {
   const date = {
@@ -66,7 +66,29 @@ export default function Yummy() {
               </div>
             </div>
           </div>
-          <div className={styles.box_info}> </div>
+          <div className={styles.box_info}>
+            <div className={styles.info_add}>
+              <IconHeart />
+              <p>Add to Wshlist</p> <IconGitdiff />
+              <p>Compare</p>
+            </div>
+            <div>
+              <p>
+                <strong>Category:</strong> Pizza
+              </p>
+            </div>
+
+            <div>
+              <p>
+                <strong>Tag:</strong> Our Shop
+              </p>
+            </div>
+            <div>
+              <p>
+                <strong>Share:</strong> <IconShare />
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -6,7 +6,7 @@
   width: 86%;
   margin: 0 auto;
   display: flex;
-  border: 1px solid red;
+
   gap: 3rem;
 }
 .box_image {
@@ -115,6 +115,34 @@
         margin: 0 0.5rem;
         color: #ffffff;
       }
+    }
+  }
+}
+.box_info {
+  margin: 1rem 0 0 0;
+  gap: 1rem;
+
+  div {
+    padding: 0.7rem 0;
+    display: flex;
+    align-items: center;
+    p {
+      display: flex;
+      align-items: center;
+      margin: 0 1rem 0 0;
+      color: #4f4f4f;
+      strong {
+        margin: 0 0.5rem 0 0;
+        font-weight: 700;
+      }
+    }
+  }
+  .info_add {
+    display: flex;
+    align-items: center;
+
+    p {
+      margin: 0 0.5rem;
     }
   }
 }
