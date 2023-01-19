@@ -1,9 +1,6 @@
 import Footer from "../Components/Footer";
 import NavBar from "../Components/Header/NavBar";
 import OurShop from "../Components/OurShop";
-import Discription from "../styles-page/shopdetails/Discrption";
-import SimilarProducts from "../styles-page/shopdetails/SimilarProducts";
-import Yummy from "../styles-page/shopdetails/Yummy";
 
 export default function ShopList() {
   return (
@@ -18,11 +15,7 @@ export default function ShopList() {
         contact="Contact"
         dark="dark"
       />
-      <OurShop title="Our Menu" link="Details" />
-      <Yummy />
-      <Discription />
-      <SimilarProducts />
-      <Footer />
+      <OurShop title="Shopping cart" link="Shopping" />
     </>
   );
 }
