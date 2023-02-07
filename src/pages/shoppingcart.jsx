@@ -1,6 +1,7 @@
 import Footer from "../Components/Footer";
 import NavBar from "../Components/Header/NavBar";
 import OurShop from "../Components/OurShop";
+import ProductCart from "../styles-page/shoppingcart/ProductCart";
 
 export default function ShopList() {
   return (
@@ -16,6 +17,7 @@ export default function ShopList() {
         dark="dark"
       />
       <OurShop title="Shopping cart" link="Shopping" />
+      <ProductCart />
     </>
   );
 }

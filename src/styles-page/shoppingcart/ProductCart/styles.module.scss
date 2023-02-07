@@ -1,0 +1,24 @@
+.container {
+  width: 100%;
+  padding: 5rem 0;
+}
+.box {
+  width: 86%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}
+.box_info {
+  display: grid;
+  grid-template-columns: 30rem 12rem 12rem 12rem 12rem;
+  width: 100%;
+  border: 1px solid red;
+  h3 {
+    font-weight: bold;
+  }
+}
+.options {
+  border: 1px solid red;
+  display: flex;
+}
