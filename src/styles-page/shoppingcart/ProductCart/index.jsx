@@ -4,7 +4,8 @@ export default function ProductCart() {
   const data = [
     {
       id: 1,
-      img: "Assets/restaurant/testimonials/image01.png",
+      img: "Assets/shoppingcart/image01.png",
+      details: <>Burguer</>,
       price: <>$ 35,00</>,
     },
   ];
@@ -19,9 +20,12 @@ export default function ProductCart() {
           <h3>Remove</h3>
         </div>
         <div className={styles.box_options}>
-          {data.map(({ id, img, price }) => (
+          {data.map(({ id, img, details, price }) => (
             <div key={id} className={styles.options}>
-              <img src={img} alt="" />
+              <div className={styles.opt_name}>
+                <img src={img} alt="" />
+                <p>{details}</p>
+              </div>
               <p>{price}</p>
             </div>
           ))}
